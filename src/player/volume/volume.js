@@ -19,7 +19,7 @@ class Volume extends React.Component {
   }
 
   render () {
-    return (<div>
+    return (<div className="containerVolume">
       <button className="Button-up" onClick={this.handleVolume}>+</button>
       <button className="Button-down" onClick={this.handleVolume}>-</button>
     </div>)

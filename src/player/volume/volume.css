@@ -1,3 +1,7 @@
+.containerVolume {
+  display: flex;
+  flex-flow: column;
+}
 /*button*/
 .Button-up {
   -moz-box-shadow:inset 0px 1px 0px 0px #d9fbbe;
@@ -15,15 +19,15 @@
 	-webkit-border-radius:6px;
 	border-radius:6px;
 	border:1px solid #83c41a;
-	display:inline-block;
+	display:block;
 	cursor:pointer;
 	color:#000000;
 	font-family:Arial;
 	font-size:15px;
 	font-weight:bold;
-	padding:6px 24px;
+	padding:auto;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #86ae47;
+  box-shadow: 0px 0px 23px -3px #79A527;
 }
 .Button-up:hover {
   background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #a5cc52), color-stop(1, #b8e356));
@@ -56,15 +60,14 @@
 	-webkit-border-radius:6px;
 	border-radius:6px;
 	border:1px solid #dcdcdc;
-	display:inline-block;
+	display:block;
 	cursor:pointer;
 	color:#777777;
   font-family:Arial;
 	font-size:15px;
 	font-weight:bold;
-	padding:6px 24px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #ffffff;
+  box-shadow: 0px 0px 23px -3px #777777;
 }
 .Button-down:hover {
   background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
