@@ -1,0 +1,38 @@
+.play {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  display: block;
+  border: 3.33333px solid #648E72;
+  border-radius: 50%;
+  padding: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.playIcon {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  width: 25px;
+  height: 50px;
+  -webkit-transform: translateX(38.46154px);
+          transform: translateX(38.46154px);
+  top: 25px;
+  border-top: 0 solid transparent;
+  border-right: 8.33333px solid #648E72;
+  border-bottom: 0 solid transparent;
+  border-left: 8.33333px solid #648E72;
+}
+.play.is-play .playIcon {
+  -webkit-transform: translateX(43.47826px);
+          transform: translateX(43.47826px);
+  border-top: 25px solid transparent;
+  border-right: 0px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-left: 25px solid #648E72;
+}
