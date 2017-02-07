@@ -1,6 +1,7 @@
 import React from 'react'
 import Play from './play/play'
 import Volume from './volume/volume'
+import Timer from './timer/timer'
 import './player.css'
 
 class Player extends React.Component {
@@ -11,6 +12,7 @@ class Player extends React.Component {
   render () {
     return (<div className="player">
       <Play audio={this.audio} />
+      <Timer />
       <Volume audio={this.audio} />
     </div>)
   }
