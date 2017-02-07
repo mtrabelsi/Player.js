@@ -1,7 +1,7 @@
 .play {
   position: relative;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   display: block;
   border: 3.33333px solid #648E72;
   border-radius: 50%;
@@ -22,7 +22,8 @@
   height: 50px;
   -webkit-transform: translateX(38.46154px);
           transform: translateX(38.46154px);
-  top: 25px;
+  top: 15px;
+  right: 65px;
   border-top: 0 solid transparent;
   border-right: 8.33333px solid #648E72;
   border-bottom: 0 solid transparent;
