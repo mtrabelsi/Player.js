@@ -12,7 +12,7 @@ class Player extends React.Component {
   render () {
     return (<div className="player">
       <Play audio={this.audio} />
-      <Timer />
+      <Timer audio={this.audio} />
       <Volume audio={this.audio} />
     </div>)
   }
