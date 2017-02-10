@@ -12,9 +12,9 @@ class Volume extends React.Component {
   handleVolume(e) {
     let volume = this.props.audio.volume
     if(e.target.innerText === '+') {
-      this.props.audio.volume  = (volume <= 0.9) ? volume+=0.1 : volume
+      this.props.audio.volume  = (volume <= 0.95) ? volume+=0.05 : volume
     } else {
-      this.props.audio.volume = (volume >= 0.1) ? volume-=0.1 : volume
+      this.props.audio.volume = (volume >= 0.05) ? volume-=0.05 : volume
     }
   }
 
